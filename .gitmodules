@@ -4,3 +4,6 @@
 [submodule "Assets/3rdParty/NaughtyAttributes"]
 	path = Assets/3rdParty/NaughtyAttributes
 	url = https://github.com/dbrizov/NaughtyAttributes.git
+[submodule "Assets/3rdParty/ScriptableObject-Architecture"]
+	path = Assets/3rdParty/ScriptableObject-Architecture
+	url = https://github.com/DanielEverland/ScriptableObject-Architecture
