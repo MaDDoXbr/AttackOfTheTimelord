@@ -7,3 +7,6 @@
 [submodule "Assets/3rdParty/ScriptableObject-Architecture"]
 	path = Assets/3rdParty/ScriptableObject-Architecture
 	url = https://github.com/DanielEverland/ScriptableObject-Architecture
+[submodule "Assets/3rdParty/EzMsg"]
+	path = Assets/3rdParty/EzMsg
+	url = https://github.com/FluidPlay/EzMsg
