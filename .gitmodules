@@ -7,3 +7,6 @@
 [submodule "Assets/3rdParty/EzMsg"]
 	path = Assets/3rdParty/EzMsg
 	url = https://github.com/FluidPlay/EzMsg
+[submodule "Assets/3rdParty/syrinj"]
+	path = Assets/3rdParty/syrinj
+	url = https://github.com/FluidPlay/syrinj.git
