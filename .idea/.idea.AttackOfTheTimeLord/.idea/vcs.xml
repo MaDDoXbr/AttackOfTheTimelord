@@ -2,7 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assets/3rdParty/EzMsg" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Assets/3rdParty/NaughtyAttributes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assets/3rdParty/ScriptableObject-Architecture" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Assets/3rdParty/syrinj" vcs="Git" />
   </component>
 </project>
