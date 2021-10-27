@@ -1,7 +1,8 @@
 using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 public interface IProjectile : IEventSystemHandler
 {
-    IEnumerable SetFiringWeapon(IWeapon weapon);
+    IEnumerable SetFiringGameObject(GameObject firingGameObject);
 }

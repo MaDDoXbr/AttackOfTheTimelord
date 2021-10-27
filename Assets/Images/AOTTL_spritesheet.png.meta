@@ -23,6 +23,24 @@ TextureImporter:
   - first:
       213: -2533913282229931625
     second: PlayerCharge
+  - first:
+      213: -5614264603696583025
+    second: PlayerCharge2
+  - first:
+      213: 3231650708107014584
+    second: PlayerCharge3
+  - first:
+      213: -3884164260985951290
+    second: Explosion1
+  - first:
+      213: -8785411810182376349
+    second: Explosion2
+  - first:
+      213: 7589547510325643152
+    second: PlayerLife
+  - first:
+      213: -4849687530493114529
+    second: PlayerChargeEmpty
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -245,8 +263,8 @@ TextureImporter:
         y: 41
         width: 9
         height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 1, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
@@ -254,6 +272,132 @@ TextureImporter:
       bones: []
       spriteID: 7917a098b4bb5dcd0800000000000000
       internalID: -2533913282229931625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCharge2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 41
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ead9da6102612b0800000000000000
+      internalID: -5614264603696583025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCharge3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 41
+        width: 3
+        height: 3
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1bbde623129dc20800000000000000
+      internalID: 3231650708107014584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb2aae0f2da81ac0800000000000000
+      internalID: -3884164260985951290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364de887182f31680800000000000000
+      internalID: -8785411810182376349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerLife
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 31
+        width: 7
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09709eedf3d735960800000000000000
+      internalID: 7589547510325643152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerChargeEmpty
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 45
+        width: 3
+        height: 3
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f570151c2e272bcb0800000000000000
+      internalID: -4849687530493114529
       vertices: []
       indices: 
       edges: []

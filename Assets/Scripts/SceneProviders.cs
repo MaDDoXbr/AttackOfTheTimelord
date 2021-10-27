@@ -14,5 +14,9 @@ public class SceneProviders : MonoBehaviour
     [FindResourceOfType(typeof(GameSO))]
     [Provides, Expandable]   //[Singleton] cria uma instância em memória mas não copia os valores (ainda! TODO?)
     [SerializeField]private GameSO GameData;
-    
+
+    [Provides("PlayerShip"), SerializeField]
+    private UnityEngine.GameObject PlayerShip;
+
+    // [Provides, FindObjectOfType(typeof(Camera))] private Camera _mainCamera;
 }
