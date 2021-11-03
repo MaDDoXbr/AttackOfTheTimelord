@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using Syrinj;
+using UnityEngine.Serialization;
 
 public class PlayerShipLocomotor : MonoBehaviour
 {
     public float Speed = 3f;
     [Inject]
     public BoxCollider2D MoveLimits;
-    [GetComponent]
-    private BoxCollider2D _col;
+    [FormerlySerializedAs("_col")] [GetComponent]
+    public BoxCollider2D Col;
 
     void Start()
     {
@@ -27,8 +28,8 @@ public class PlayerShipLocomotor : MonoBehaviour
         var targetXpos = currentPos.x + offset;
 
         targetXpos = Mathf.Clamp(targetXpos,
-            MoveLimits.bounds.min.x + _col.bounds.extents.x, 
-            MoveLimits.bounds.max.x - _col.bounds.extents.x);
+            MoveLimits.bounds.min.x + Col.bounds.extents.x, 
+            MoveLimits.bounds.max.x - Col.bounds.extents.x);
         
         transform.position = new Vector3(targetXpos, currentPos.y, currentPos.z);
     }
