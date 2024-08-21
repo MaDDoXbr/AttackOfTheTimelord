@@ -1,0 +1,1011 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.12f1 (7defd84cdab8) revision 8253400'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 65461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Breno/Documents/Unity Projects/AttackOfTheTimelord
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49784
+-job-worker-count
+11
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Breno/Documents/Unity Projects/AttackOfTheTimelord
+C:/Users/Breno/Documents/Unity Projects/AttackOfTheTimelord
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [69108]  Target information:
+
+Player connection [69108]  * "[IP] 26.18.227.240 [Port] 0 [Flags] 2 [Guid] 2051447365 [EditorId] 2051447365 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PU30CAH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [69108]  * "[IP] 192.168.0.252 [Port] 0 [Flags] 2 [Guid] 2051447365 [EditorId] 2051447365 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PU30CAH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [69108] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [69108] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.12f1 (7defd84cdab8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Breno/Documents/Unity Projects/AttackOfTheTimelord/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002330 seconds.
+- Loaded All Assemblies, in  0.333 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 699ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (113ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.706 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1459ms
+	BeginReloadAssembly (374ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (71ms)
+				TypeCache.ScanAssembly (61ms)
+			BuildScriptInfoCaches (27ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (757ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3192 unused Assets / (0.8 MB). Loaded Objects now: 3781.
+Memory consumption went from 102.6 MB to 101.8 MB.
+Total: 14.333800 ms (FindLiveObjects: 0.406400 ms CreateObjectMapping: 0.172600 ms MarkObjects: 12.836100 ms  DeleteObjects: 0.917200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25905.316190 seconds.
+  path: Assets/Font/O2_pixelart/O2_copy.png
+  artifactKey: Guid(805cd314d435d974bb43a8c5724fbfe6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Font/O2_pixelart/O2_copy.png using Guid(805cd314d435d974bb43a8c5724fbfe6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66b1d675e9f33603ed0e1737e16a13ea') in 0.1349094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Images/AOTTL_spritesheet.png
+  artifactKey: Guid(4ab5ea7e6d8a9644c97ae3dbbc268690) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Images/AOTTL_spritesheet.png using Guid(4ab5ea7e6d8a9644c97ae3dbbc268690) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6158dd1271e579cd5899a356703f7bc') in 0.0337198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/README.md
+  artifactKey: Guid(77e6f4c16584c8f4cbd92ed452fb9332) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/README.md using Guid(77e6f4c16584c8f4cbd92ed452fb9332) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '33d5d6c7fe692e22f8a32b766db1d941') in 0.0038439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3rdParty/syrinj/Scripts/Reflection/AttributeCache.cs
+  artifactKey: Guid(bad226ffc52495c4bbc01b6b00ab8ce2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/syrinj/Scripts/Reflection/AttributeCache.cs using Guid(bad226ffc52495c4bbc01b6b00ab8ce2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '697a0c808ad9490dcd8ac41b10a05701') in 0.0051212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/3rdParty/EzMsg/Demo/EzMsg_test.unity
+  artifactKey: Guid(f5e03daf0dbfd490fa65680e5f0d24cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/EzMsg/Demo/EzMsg_test.unity using Guid(f5e03daf0dbfd490fa65680e5f0d24cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d4e6b7e907b8ea1b91396ae62302c03') in 0.0048649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/syrinj/Scripts/Resolvers/AnimatorStringHashResolver.cs
+  artifactKey: Guid(7d5f56b1f065aeb4a908a2a920b6c2cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/syrinj/Scripts/Resolvers/AnimatorStringHashResolver.cs using Guid(7d5f56b1f065aeb4a908a2a920b6c2cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78797bcde030ee170ccf950af0f4d683') in 0.0046786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Anims/PlayerChargeEmpty.anim
+  artifactKey: Guid(c777fba4f7db6194ea23d1ad7a4a2240) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Anims/PlayerChargeEmpty.anim using Guid(c777fba4f7db6194ea23d1ad7a4a2240) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9dd7eff3d63d9c90ec2cf49192f69e2e') in 0.0105262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Font/O2.ttf
+  artifactKey: Guid(7f554f3d1e349554297935bc0efa6a57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Font/O2.ttf using Guid(7f554f3d1e349554297935bc0efa6a57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d92aafc07389f377d393ab29f667cce') in 0.010571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3rdParty/syrinj/Scripts/DependencyContainer.cs
+  artifactKey: Guid(feb35e4e7be18e1498b183742f4aa66b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/syrinj/Scripts/DependencyContainer.cs using Guid(feb35e4e7be18e1498b183742f4aa66b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7cdb48826abbce4c020e03b569eafc60') in 0.0035594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/3rdParty/syrinj/Scripts/Provision/PropertyProvider.cs
+  artifactKey: Guid(7581aad568af1df40a4ca9c7fb790c61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/syrinj/Scripts/Provision/PropertyProvider.cs using Guid(7581aad568af1df40a4ca9c7fb790c61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6765b48cd45c30a02af93a92eefc2519') in 0.0032272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/3rdParty/syrinj/Scripts/Injection/InjectableProperty.cs
+  artifactKey: Guid(62e9d0ddf718c274cb1cab2b5f3d4ba3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/syrinj/Scripts/Injection/InjectableProperty.cs using Guid(62e9d0ddf718c274cb1cab2b5f3d4ba3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '800b510b661c72c243eb67936c269d88') in 0.0031572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scripts/Projectile.cs
+  artifactKey: Guid(9c2ea2de0abfe434e91d462647742432) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Projectile.cs using Guid(9c2ea2de0abfe434e91d462647742432) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc4465db561b86cff35be079ee7d69ac') in 0.0028132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/3rdParty/syrinj/Tests/TestScene.unity
+  artifactKey: Guid(9c3ee56897ed11440af8881d4cdb5904) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/syrinj/Tests/TestScene.unity using Guid(9c3ee56897ed11440af8881d4cdb5904) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a8e9426ae89bcdc0374c014f21789c0') in 0.0029319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3rdParty/EzMsg/Scripts/EzMsg.cs
+  artifactKey: Guid(3299c5455dfbd4c589c95c061f2031b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/EzMsg/Scripts/EzMsg.cs using Guid(3299c5455dfbd4c589c95c061f2031b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96f26b0b7730743e36b10da727f2b40c') in 0.0034442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/SO_Assets/Resources/GameSA.asset
+  artifactKey: Guid(f590b5b5db6b5454f8ac5c1affbce4ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/SO_Assets/Resources/GameSA.asset using Guid(f590b5b5db6b5454f8ac5c1affbce4ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f16bbccc0e6aed2ed6ebafc066b50100') in 0.0280446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/PlayerShip.prefab
+  artifactKey: Guid(fd4d94cfbb38bec4db2692b83b38d16f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/PlayerShip.prefab using Guid(fd4d94cfbb38bec4db2692b83b38d16f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2091b9fa572cb2a734edffeb9135843f') in 0.3431761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086106 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Collections/ByteCollection.cs
+  artifactKey: Guid(c80696004aaeefd4581c66b60262ce40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Collections/ByteCollection.cs using Guid(c80696004aaeefd4581c66b60262ce40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9f66b7c0b793becc07d44e7f7640485') in 0.0079641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Collections/StringCollection.cs
+  artifactKey: Guid(fb12e3ad1486e2e4496d2933bc2e5456) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Collections/StringCollection.cs using Guid(fb12e3ad1486e2e4496d2933bc2e5456) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a6c1b4441f0df694adaf681b1f9cf3e3') in 0.0057786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Utility/SOArchitecture_Utility.cs
+  artifactKey: Guid(10c95056b93db0b4780f5945f99cca43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Utility/SOArchitecture_Utility.cs using Guid(10c95056b93db0b4780f5945f99cca43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d8c2bd391003b141618f8c55da39dd1') in 0.0036884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/SceneReference.cs
+  artifactKey: Guid(dfdb025a7a4bc3c4e9314278ae0ae78d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/SceneReference.cs using Guid(dfdb025a7a4bc3c4e9314278ae0ae78d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43ac1668d561cdc00065675287379847') in 0.003359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Collections/DoubleCollection.cs
+  artifactKey: Guid(ddebc6dac1a8f914b9b59d5ebb3f8dd1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Collections/DoubleCollection.cs using Guid(ddebc6dac1a8f914b9b59d5ebb3f8dd1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '21c774a001e38545491329b422a522b3') in 0.00488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/GameObjectReference.cs
+  artifactKey: Guid(e370b4c81b41e6b4fb53e08e9930022d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/GameObjectReference.cs using Guid(e370b4c81b41e6b4fb53e08e9930022d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c59e4099962d4b8e0e0d2161a38c6a05') in 0.0035542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/SByteReference.cs
+  artifactKey: Guid(39a0e4e41b487204893a43b7b46ff322) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/SByteReference.cs using Guid(39a0e4e41b487204893a43b7b46ff322) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa44a1553356a431ee5a95e7b594e342') in 0.0038279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Variables/CharVariable.cs
+  artifactKey: Guid(c05c58558375b6c4c9669531f002410c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Variables/CharVariable.cs using Guid(c05c58558375b6c4c9669531f002410c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab87b480bcc642dbaed62755b4cc7b0d') in 0.0054856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/DoubleReference.cs
+  artifactKey: Guid(bd3ad0d83631c3b4993f3486362f4f83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/DoubleReference.cs using Guid(bd3ad0d83631c3b4993f3486362f4f83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d5ab9bece0cfbc6bb13bab5beaeef5d') in 0.0048299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Variables/DoubleVariable.cs
+  artifactKey: Guid(286e3b61bce268347997b6dec5f26896) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Variables/DoubleVariable.cs using Guid(286e3b61bce268347997b6dec5f26896) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fdd3db7f8eac18b0ca0a778cebfd542') in 0.0119882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/UShortReference.cs
+  artifactKey: Guid(d64b5a7ff70881b4a829380159685c6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/References/UShortReference.cs using Guid(d64b5a7ff70881b4a829380159685c6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86c57e4f61ce74409f5c638a123181e0') in 0.0089438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Variables/Vector2Variable.cs
+  artifactKey: Guid(d6a231661af38844caae4ded01abd631) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Variables/Vector2Variable.cs using Guid(d6a231661af38844caae4ded01abd631) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bc53127efa3a849410b9a3aeefc45e41') in 0.0093039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Variables/ULongVariable.cs
+  artifactKey: Guid(afaa7230249496e4e81d9dafaadec42d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Variables/ULongVariable.cs using Guid(afaa7230249496e4e81d9dafaadec42d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a5848c2b32f9f2b165d9d3b4844bb53') in 0.0041755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Collections/SbyteCollection.cs
+  artifactKey: Guid(800757c0caa7c454caae4475e6d601c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Collections/SbyteCollection.cs using Guid(800757c0caa7c454caae4475e6d601c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '23db46c8d46985e5a2a4395bad3713cb') in 0.0051552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.417231 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/NaughtyInspector.cs
+  artifactKey: Guid(1b9b53879f7c93b42835c3ad9e0d0a66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/NaughtyInspector.cs using Guid(1b9b53879f7c93b42835c3ad9e0d0a66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '889093b0854fbae0c307aa86064d3b81') in 0.0042336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/HorizontalLineTest.cs
+  artifactKey: Guid(5cc6d3f8d4a53374887b3d620a6972e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/HorizontalLineTest.cs using Guid(5cc6d3f8d4a53374887b3d620a6972e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '009f18e7b8dc8973c68c83ae1916dbca') in 0.0040166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/_NaughtyComponent.cs
+  artifactKey: Guid(9c928ea15ae74a44089beb2e534c1a35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/_NaughtyComponent.cs using Guid(9c928ea15ae74a44089beb2e534c1a35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '321ba8be782ebb774b6c322a6ca2739d') in 0.0035054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Generic Property Drawer/IPropertyDrawIterator.cs
+  artifactKey: Guid(508ddb2b74994e04b8af4f74c38fa859) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Generic Property Drawer/IPropertyDrawIterator.cs using Guid(508ddb2b74994e04b8af4f74c38fa859) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '33d4e6027bad972fc0ae604ffa08da8a') in 0.0035626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Listeners/Vector4GameEventListener.cs
+  artifactKey: Guid(29210de1b924b2447875a0db5f4aa28a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Listeners/Vector4GameEventListener.cs using Guid(29210de1b924b2447875a0db5f4aa28a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4216e5e310934f7646247f70d97d76df') in 0.0049889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/_TestScriptableObjectB.cs
+  artifactKey: Guid(c2b396aeebc9d984da298eee313896bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/_TestScriptableObjectB.cs using Guid(c2b396aeebc9d984da298eee313896bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5fee8fdfb98780a620a5fbb522415050') in 0.0049709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Drawers/GenericPropertyDrawer.cs
+  artifactKey: Guid(a2175771da1196e418cdf5f11735236e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Drawers/GenericPropertyDrawer.cs using Guid(a2175771da1196e418cdf5f11735236e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b6eb3001c84e051960fafd8fc09e7f50') in 0.0034252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/Vector4GameEvent.cs
+  artifactKey: Guid(b636b9a32c4132249954f829d103165e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/Vector4GameEvent.cs using Guid(b636b9a32c4132249954f829d103165e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '618a4b30b9c999b65d7df1fd5b7c268b') in 0.0056329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/UIntGameEvent.cs
+  artifactKey: Guid(f428c233983fc624ea50f5d7d073889e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/UIntGameEvent.cs using Guid(f428c233983fc624ea50f5d7d073889e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3cd1f6d23aa77f6d0ed9d6cc55fe3217') in 0.0048507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/_NaughtyScriptableObject.cs
+  artifactKey: Guid(753bdb918c6038142acddbd7aae6958f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/_NaughtyScriptableObject.cs using Guid(753bdb918c6038142acddbd7aae6958f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97333e40d42206e164df8a054365a886') in 0.0035487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Scripts/CollectionCountDisplayer.cs
+  artifactKey: Guid(8664d5f52b89af247a1dd684a075694b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Scripts/CollectionCountDisplayer.cs using Guid(8664d5f52b89af247a1dd684a075694b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f48117af940e9637fd0f378ae2b93985') in 0.0039682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Prefabs/Reference Example Player.prefab
+  artifactKey: Guid(3768c23610dfe9140af281dcf25e1b38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Prefabs/Reference Example Player.prefab using Guid(3768c23610dfe9140af281dcf25e1b38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8b5a566920b010fa83c2eb6a70f8d97') in 0.0239146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/FloatGameEvent.cs
+  artifactKey: Guid(001ce7190bfda8a4d9ca56a17f8fdd0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/FloatGameEvent.cs using Guid(001ce7190bfda8a4d9ca56a17f8fdd0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54d904e13e19496b77fdcedf6022956a') in 0.0052493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Responses/UIntUnityEvent.cs
+  artifactKey: Guid(0a32a8728790bae42a6073656a66766f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Responses/UIntUnityEvent.cs using Guid(0a32a8728790bae42a6073656a66766f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '969716154a1abf31767a7e80509c69c0') in 0.0039402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/QuaternionGameEvent.cs
+  artifactKey: Guid(9b9c527c9791f364e86829c02168d055) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/QuaternionGameEvent.cs using Guid(9b9c527c9791f364e86829c02168d055) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cf967c9c1a8950153ae243eebbe449c') in 0.0043842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Inspectors/TypedGameEventEditor.cs
+  artifactKey: Guid(f8c7bd95d11941644a5f9f3045c0545f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Inspectors/TypedGameEventEditor.cs using Guid(f8c7bd95d11941644a5f9f3045c0545f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '996b4385e454f8e171bfd8a22ec26792') in 0.0035686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/IntGameEvent.cs
+  artifactKey: Guid(8ea29b4887d65ef45a35c9c5add9005e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/IntGameEvent.cs using Guid(8ea29b4887d65ef45a35c9c5add9005e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a17e44da32d76d6cb23efa195875c791') in 0.0065715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Listeners/DoubleGameEventListener.cs
+  artifactKey: Guid(8f1a200f48d0a584c9e8eed9b0b42f2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Listeners/DoubleGameEventListener.cs using Guid(8f1a200f48d0a584c9e8eed9b0b42f2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08fe7068b29d987dc8a76aa74395c75d') in 0.006282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Generic Property Drawer/IPropertyIterator.cs
+  artifactKey: Guid(0905a3ae925377842af05c8e661d127e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Generic Property Drawer/IPropertyIterator.cs using Guid(0905a3ae925377842af05c8e661d127e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd47fa80949a9bc80a888a2a310b7e7a4') in 0.0036555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Objects/Sphere Of Pain Damage.asset
+  artifactKey: Guid(6a37932d0acd09746b3d2a9b91fc143e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Objects/Sphere Of Pain Damage.asset using Guid(6a37932d0acd09746b3d2a9b91fc143e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '44733e5fd038cb6c00f43c2dbb0855fe') in 0.0053808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Responses/AudioClipUnityEvent.cs
+  artifactKey: Guid(7dfc7e5eb87c48ffbd1ea05999025055) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Responses/AudioClipUnityEvent.cs using Guid(7dfc7e5eb87c48ffbd1ea05999025055) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee8bc53e33f89588cba25a39cd91abe5') in 0.0041574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Responses/ObjectUnityEvent.cs
+  artifactKey: Guid(d1c067324aabdea479affacf96ec6b92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Responses/ObjectUnityEvent.cs using Guid(d1c067324aabdea479affacf96ec6b92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5efc6897becec0f861f6c66d5a971749') in 0.0035894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Listeners/AudioClipGameEventListener.cs
+  artifactKey: Guid(1b59f62474a8441eb57693365ea24e83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Listeners/AudioClipGameEventListener.cs using Guid(1b59f62474a8441eb57693365ea24e83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24c1d0553920582aa85504e410daf40a') in 0.0046656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/AudioClipGameEvent.cs
+  artifactKey: Guid(96c62cae1d494005aee595768eefb7ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Events/Game Events/AudioClipGameEvent.cs using Guid(96c62cae1d494005aee595768eefb7ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e603b43a1c5fd0ec233af832413d4d5') in 0.0066508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/ResizableTextAreaTest.cs
+  artifactKey: Guid(fb4f4bb2e3e063340a24f4bb24528bb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Test/ResizableTextAreaTest.cs using Guid(fb4f4bb2e3e063340a24f4bb24528bb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4d947fc867d0bf79546998342b12e25') in 0.0038737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Scenes/Example #01 - References.unity
+  artifactKey: Guid(aa169694de7c0d046ad1b5fdb65c8cb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Scenes/Example #01 - References.unity using Guid(aa169694de7c0d046ad1b5fdb65c8cb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef024975e21b5126dcadd67bd9786cd7') in 0.0036411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361820 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Scripts/ObjectAdder.cs
+  artifactKey: Guid(e1e58c123a9f8b8418deb29f883e6e1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Examples/Scripts/ObjectAdder.cs using Guid(e1e58c123a9f8b8418deb29f883e6e1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f11efcbe45b0e272040018a1f4e87bc7') in 0.0044078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/Vector2CollectionIcon.png
+  artifactKey: Guid(8cbf47eb8d6a6734799ebc975a1ed553) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/Vector2CollectionIcon.png using Guid(8cbf47eb8d6a6734799ebc975a1ed553) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd7eb1e9173737640d9117d8e33a05cec') in 0.0072121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DropdownAttribute.cs
+  artifactKey: Guid(2cb864a1092cec04f8a4dbb556e8ed31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DropdownAttribute.cs using Guid(2cb864a1092cec04f8a4dbb556e8ed31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30cd318af0a7e2d0ef972dc843b61dd5') in 0.003866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Event Listeners/SignedByteGameEventListenerIcon.png
+  artifactKey: Guid(8ee0d00280544c942bc17b01d58957e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Event Listeners/SignedByteGameEventListenerIcon.png using Guid(8ee0d00280544c942bc17b01d58957e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a2aec32ca8f7c8f2dc217a133af69f7') in 0.0084007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/InputAxisAttribute.cs
+  artifactKey: Guid(85033978c18810f46af271bbe94cf4aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/InputAxisAttribute.cs using Guid(85033978c18810f46af271bbe94cf4aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ccfa0af960e3b4c195ceea85277160c') in 0.0054679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ScenePropertyDrawer.cs
+  artifactKey: Guid(7f5ed440d4f429e42a5da7bc5df48fd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ScenePropertyDrawer.cs using Guid(7f5ed440d4f429e42a5da7bc5df48fd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39085110b879dde5b5aa724c96d51e66') in 0.0040673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers_SpecialCase/SpecialCasePropertyDrawerBase.cs
+  artifactKey: Guid(771776453ad34b045a41dea54856fa12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers_SpecialCase/SpecialCasePropertyDrawerBase.cs using Guid(771776453ad34b045a41dea54856fa12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8e7a5ef5c63451dd9491a8942686b8d') in 0.003675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/ShortCollectionIcon.png
+  artifactKey: Guid(c0a478b6dd67927488ed74dba04f5eb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/ShortCollectionIcon.png using Guid(c0a478b6dd67927488ed74dba04f5eb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '029d8dcb7c6a30817febf57de0e0b486') in 0.0074035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/MinValuePropertyValidator.cs
+  artifactKey: Guid(03dd23f6c0598074fb1b721dcd8fe023) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/MinValuePropertyValidator.cs using Guid(03dd23f6c0598074fb1b721dcd8fe023) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b910dfd718310773c50b3d6dac9cab5') in 0.0042265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/MinValueAttribute.cs
+  artifactKey: Guid(40133bac7c8d42b4d837138430a503e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/MinValueAttribute.cs using Guid(40133bac7c8d42b4d837138430a503e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4169d0c6165e7d86e300e88280ef01e1') in 0.0033256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/IGroupAttribute.cs
+  artifactKey: Guid(7c437b9ac50575347a7b12520f37f9a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/IGroupAttribute.cs using Guid(7c437b9ac50575347a7b12520f37f9a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '42a47ca87d13ba5c1f41a1837e2f445d') in 0.003046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/Cube.prefab
+  artifactKey: Guid(7ec354ef3daae7641b7a3fa5e1fe0c81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/Cube.prefab using Guid(7ec354ef3daae7641b7a3fa5e1fe0c81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '913905512c350165454b918d6044a10b') in 0.0076632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/UnsignedShortCollectionIcon.png
+  artifactKey: Guid(2716b51a57087c34db2b9b6fa1523f93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/UnsignedShortCollectionIcon.png using Guid(2716b51a57087c34db2b9b6fa1523f93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a5f31d8a2fa5ba0c9e403ddad97c3375') in 0.0077909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/HideIfAttribute.cs
+  artifactKey: Guid(9ab2d0fcfb13a214ea6ef7629c96a761) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/HideIfAttribute.cs using Guid(9ab2d0fcfb13a214ea6ef7629c96a761) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cea93eb00ea046d48fe91be042fa82b0') in 0.0041566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ButtonAttribute.cs
+  artifactKey: Guid(e8fe363a25ec5e24a9dd510bb0b4a0d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ButtonAttribute.cs using Guid(e8fe363a25ec5e24a9dd510bb0b4a0d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '976fe5746236cd0a39348c261db04382') in 0.0038516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/AnimatorParamPropertyDrawer.cs
+  artifactKey: Guid(98ff8cb1bcefae740a68d9a5c5ee3563) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/AnimatorParamPropertyDrawer.cs using Guid(98ff8cb1bcefae740a68d9a5c5ee3563) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae556c7a1e1a20531fc0b64a502ea742') in 0.0039678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/RequiredAttribute.cs
+  artifactKey: Guid(b0cdf49d1687849458b1a8d4786553d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/RequiredAttribute.cs using Guid(b0cdf49d1687849458b1a8d4786553d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f00f248a870b07551edab2ffba5bd32') in 0.0045182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/CurveRangeAttribute.cs
+  artifactKey: Guid(bbdf3fb8882c7514c9a01108122cda7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/CurveRangeAttribute.cs using Guid(bbdf3fb8882c7514c9a01108122cda7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29e993a0307ec8f8068573df15c253a3') in 0.0036836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/icon-github.png
+  artifactKey: Guid(005888ede18a58e4db8d069cfa3007cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/icon-github.png using Guid(005888ede18a58e4db8d069cfa3007cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1110b32567716199709113d5b4a9fec') in 0.0110539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/ByteGameEventIcon.png
+  artifactKey: Guid(261c21d547ee3ca48b6243d4316763d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/ByteGameEventIcon.png using Guid(261c21d547ee3ca48b6243d4316763d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9503ce974f6fb9f0b3852114c399172c') in 0.0078428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Event Listeners/DoubleGameEventListenerIcon.png
+  artifactKey: Guid(93a3623d2d3a46340ab7381b57d8bb5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Event Listeners/DoubleGameEventListenerIcon.png using Guid(93a3623d2d3a46340ab7381b57d8bb5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7423da296f8c8bca851b158dcac8eb9d') in 0.0077127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/AudioClipCollectionIcon.png
+  artifactKey: Guid(f305724bfe41a0241b47fbc4efcdd6d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/AudioClipCollectionIcon.png using Guid(f305724bfe41a0241b47fbc4efcdd6d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b022f399ee0d6a7d915e1e8ed7e268d') in 0.007989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ShowAssetPreviewAttribute.cs
+  artifactKey: Guid(4b7dd9b44abc0054cb5cd68d74be2c1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/NaughtyAttributes/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ShowAssetPreviewAttribute.cs using Guid(4b7dd9b44abc0054cb5cd68d74be2c1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '23feb2d7b3abf11097ac2dbe535b118b') in 0.004148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Code Generation/Templates/VariableTemplate
+  artifactKey: Guid(574fca2de3eaa454e9f1f32258e3dda6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Code Generation/Templates/VariableTemplate using Guid(574fca2de3eaa454e9f1f32258e3dda6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '211f5d39f3b5de8dc036f9b489dafdf0') in 0.0029897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/3rdParty/syrinj/Tests/Editor/Integration/ConvenienceAttributes/FindWithTagTest.cs
+  artifactKey: Guid(65ba12b1a7ec1d944a2a3ef80d329516) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/syrinj/Tests/Editor/Integration/ConvenienceAttributes/FindWithTagTest.cs using Guid(65ba12b1a7ec1d944a2a3ef80d329516) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b9f94a0d6132403b058b8be8f50eaf50') in 0.0053818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Code Generation/Templates/UnityEventTemplate
+  artifactKey: Guid(5dc00cc2e2d948945a8fe03a1cf7a068) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Code Generation/Templates/UnityEventTemplate using Guid(5dc00cc2e2d948945a8fe03a1cf7a068) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2cf68b4651f572107a63fde8afe8c11') in 0.0030281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/UnsignedIntCollectionIcon.png
+  artifactKey: Guid(87156f2d93700f84a8a38e414e8d312f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Collections/UnsignedIntCollectionIcon.png using Guid(87156f2d93700f84a8a38e414e8d312f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '42c52d0ae50e436b1fc5fa54bfa1189c') in 0.00745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.352968 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/LongGameEventIcon.png
+  artifactKey: Guid(05d05b25c35be304c830ae58521193f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/LongGameEventIcon.png using Guid(05d05b25c35be304c830ae58521193f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24ae037ec247bd6ef5654f7ca50df9f3') in 0.0090073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/UnsignedIntegerGameEventIcon.png
+  artifactKey: Guid(d09943ccbb1d70f4f9555806dacec150) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/UnsignedIntegerGameEventIcon.png using Guid(d09943ccbb1d70f4f9555806dacec150) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '56a14b81253a68ba259b152db824513b') in 0.0077062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Variables/UnsignedShortVariableIcon.png
+  artifactKey: Guid(0e386ea6d4343594ca7fcd5e404ce74b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Variables/UnsignedShortVariableIcon.png using Guid(0e386ea6d4343594ca7fcd5e404ce74b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd611f9a8b56c93523050b0c450051acd') in 0.0071823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Variables/AudioClipVariableIcon.png
+  artifactKey: Guid(790f683b8bdc21549844ccedf9d4af47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Variables/AudioClipVariableIcon.png using Guid(790f683b8bdc21549844ccedf9d4af47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7772c3ec0de7b14a8c5914fad98e2948') in 0.0108235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/UnsignedShortGameEventIcon.png
+  artifactKey: Guid(5d72435736900dc41a79e248ea04ed82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/UnsignedShortGameEventIcon.png using Guid(5d72435736900dc41a79e248ea04ed82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e521ce3e4cbdfcb7d0026a4b7123b960') in 0.0079451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Variables/BoolVariableIcon.png
+  artifactKey: Guid(9415e294b3c3de24a9395373a02b5381) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Variables/BoolVariableIcon.png using Guid(9415e294b3c3de24a9395373a02b5381) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c066558fee5d1fd3f9bc630234dec048') in 0.0073214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/StringGameEventIcon.png
+  artifactKey: Guid(a258685c72c006742a28776d98cc662e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3rdParty/ScriptableObject-Architecture/Assets/SO Architecture/Editor/Icons/Game Events/StringGameEventIcon.png using Guid(a258685c72c006742a28776d98cc662e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2df4ab5e43c274b8ceea374b8557785f') in 0.0073839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -24,6 +24,7 @@ public class Projectile : MonoBehaviour, IProjectile
     
     public void OnCollisionEnter2D(Collision2D other) {
         _firingGameObject.Send<IWeapon>(_ => _.Reload());  //Messaging Pattern
+        other.gameObject.Send<IArmor>(ApplyDamageMsg);
         Destroy(gameObject); //, 0.01f), if safe delay is to be introduced;
 
         // ** Message Chaining usage example:

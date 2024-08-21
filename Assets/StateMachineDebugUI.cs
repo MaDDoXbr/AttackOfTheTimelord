@@ -16,7 +16,11 @@ public class StateMachineDebugUI : MonoBehaviour
         get
         {
             if (_mainCam == null)
+#if UNITY_5                
                 _mainCam = FindObjectOfType<Camera>();
+#else
+                _mainCam = FindFirstObjectByType<Camera>();
+#endif
             return _mainCam;
         }
     }
@@ -29,7 +33,11 @@ public class StateMachineDebugUI : MonoBehaviour
 
     void Awake()
     {
+#if UNITY_5         
         _mainCam = FindObjectOfType<Camera>();
+#else
+        _mainCam = FindFirstObjectByType<Camera>();
+#endif
         _stateMachine = GetComponent<StateMachine>();
     }
     

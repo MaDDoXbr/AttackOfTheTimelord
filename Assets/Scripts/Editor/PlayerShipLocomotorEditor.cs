@@ -14,7 +14,7 @@ public class PlayerShipLocomotorEditor : Editor
     private void OnEnable()
     {
         speed = serializedObject.FindProperty(nameof(PlayerShipLocomotor.Speed));
-        col = serializedObject.FindProperty(nameof(PlayerShipLocomotor.Col));
+        col = serializedObject.FindProperty(nameof(PlayerShipLocomotor._col));
     }
 
     public override void OnInspectorGUI()
